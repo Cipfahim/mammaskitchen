@@ -331,22 +331,7 @@ nav.shrink .navbar-toggle {
 	height: 80vh;
 	background-repeat: no-repeat;
 }
-.owl-carousel .owl-wrapper, .owl-carousel .owl-item:nth-child(1) .item
-{
-	background: url('../images/1.jpg');
-	background-size: cover;
-	background-position: bottom;
-}
-.owl-carousel .owl-wrapper, .owl-carousel .owl-item:nth-child(2) .item
-{
-	background: url('../images/2.jpg');
-	background-size: cover;
-}
-.owl-carousel .owl-wrapper, .owl-carousel .owl-item:nth-child(3) .item
-{
-	background: url('../images/3.jpg');
-	background-size: cover;
-}
+
 .owl-theme .owl-controls .owl-buttons div
 {
 	position: absolute;

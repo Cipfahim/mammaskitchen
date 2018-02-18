@@ -71,10 +71,10 @@ $(document).ready(function() {
 $(document).ready(function(){
     $(window).scroll(function() {
         if ($(document).scrollTop() > 50) {
-            $("#logo").attr("src", "images/Logo_stick.png")
+            $("#logo").attr("src", "frontend/images/Logo_stick.png")
         }
         else {
-             $("#logo").attr("src", "images/Logo_main.png")
+             $("#logo").attr("src", "frontend/images/Logo_main.png")
         }
     });
 });
