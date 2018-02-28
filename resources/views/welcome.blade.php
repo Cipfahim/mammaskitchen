@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="{{ asset('frontend/css/owl.carousel.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/css/owl.theme.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/css/animate.css') }}">
-    <link rel="stylesheet" href="{{ asset('frotnend/css/flexslider.css') }}">
-    <link rel="stylesheet" href="{{ asset('frotnend/css/pricing.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/flexslider.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/pricing.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/css/main.css') }}">
     <style>
         @foreach($sliders as $key=>$slider)
