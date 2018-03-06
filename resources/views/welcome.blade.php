@@ -729,21 +729,14 @@
     </div>
 </section>
 
-<div class="container-fluid">
-    <div class="row">
-        <div id="map-canvas"></div>
-    </div>
-</div>
-
-
 
 <section class="contact-form">
     <div class="container">
         <div class="row">
             <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
                 <div class="row">
-                    <form class="contact-form" method="post" action="contact.php">
-
+                    <form class="contact-form" method="post" action="{{ route('contact.send') }}">
+                        @csrf
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group">
                                 <input  name="name" type="text" class="form-control" id="name" required="required" placeholder="  Name">
