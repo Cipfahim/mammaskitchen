@@ -37,6 +37,12 @@
                     <p>Reservations</p>
                 </a>
             </li>
+            <li class="{{ Request::is('admin/contact*') ? 'active': '' }}">
+                <a href="{{ route('contact.index') }}">
+                    <i class="material-icons">message</i>
+                    <p>Contact Message</p>
+                </a>
+            </li>
             <li>
                 <a href="./icons.html">
                     <i class="material-icons">bubble_chart</i>
