@@ -1,7 +1,7 @@
 <div class="sidebar" data-color="purple" data-image="{{ asset('backend/img/sidebar-1.jpg') }}">
 
     <div class="logo">
-        <a href="{{ route('admin.dashboard') }}" class="simple-text">
+        <a href="{{ route('welcome') }}" class="simple-text">
             Mamma's Kitchen
         </a>
     </div>

@@ -7,6 +7,7 @@
     <!-- <link rel="shortcut icon" href="images/star.png" type="favicon/ico" /> -->
 
     <title>Mamma's Kitchen</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
 
     <link rel="stylesheet" href="{{ asset('frontend/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/css/font-awesome.min.css') }}">
@@ -20,6 +21,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
     <style>
         @foreach($sliders as $key=>$slider)
+        
             .owl-carousel .owl-wrapper, .owl-carousel .owl-item:nth-child({{ $key + 1 }}) .item
             {
                 background: url({{ asset('uploads/slider/'.$slider->image) }});
@@ -337,7 +339,8 @@
             <div class="col-md-6 col-md-offset-3">
                 <div class="copyright text-center">
                     <p>
-                        &copy; Copyright, 2018 <a href="#">Mamma's Kitchen.</a> Developed by <a href="https://cipfahim.github.io/">Md.Aminul Islam Fahim</a> Theme by <a href="http://themewagon.com/"  target="_blank">ThemeWagon</a>
+                        &copy; Copyright, {{ date('Y') }} <a href="#">Mamma's Kitchen.</a> <strong> Developed &amp; <i class="far fa-heart"></i> by </strong>
+                        <a href="https://www.youtube.com/channel/UCwbVAlvrsD2Tpx93bleNbOA" target="_blank">Programming kit</a>
                     </p>
                 </div>
             </div>

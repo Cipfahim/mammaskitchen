@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::redirect('lara-admin','login');
 Route::get('/','HomeController@index')->name('welcome');
 Route::post('/reservation','ReservationController@reserve')->name('reservation.reserve');
 Route::post('/contact','ContactController@sendMessage')->name('contact.send');
